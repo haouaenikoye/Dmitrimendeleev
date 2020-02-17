@@ -1,0 +1,132 @@
+
+td{
+    color: black;
+    outline: none;
+}
+
+h1{
+    color: darkgrey;
+    text-align: center;
+    border: double;
+    border-color: darkkhaki;
+}
+
+.figure{
+    margin-left: 300px;
+}
+.image{
+    border-radius: 250px 250px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.violet{
+    background-color: #9e95c6;
+}
+p{
+    line-height: 1px;
+    text-align: center;
+}
+.bleu{
+    background-color:#5a9ec9;
+}
+.jaune{
+    background-color: #f0f9c1;
+}
+.claire{
+    background-color: #f3c399;
+}
+.Fonce{
+    background-color: #f0b177;
+}
+.orange{
+    background-color:#f8a78e;
+}
+.vert{
+    background-color:#a3dac9;
+}
+.brun{
+    background-color:#cdebc8;
+}
+.Somon{
+    background-color: #e68b94;
+}
+.Rose{
+    background-color:#c5678e;
+}
+body{
+    text-align: center;
+}
+
+@media screen and (max-width:1170px) {
+    td {
+        font-size: 5px;
+    }
+    strong {
+        font-size: 8px;
+    }
+    table {
+        border-spacing: 2px;
+    }
+    .espace {
+        height: 10px;
+    }
+    .photo {
+        width: 60%;
+        max-width: 250px;
+    }
+    @photo{
+        from {
+            transform: translateX(0px);
+        }
+        30% {
+            transform: translateX(50px);
+            border-radius: 0px 150px 150px 150px;
+        }
+        to {
+            background-color: #C4668E;
+            box-shadow: #C4668E 5px 6px 15px;
+            border-left: #C4668E solid 5px;
+        }
+    }
+    image {
+        margin-left: 10px;
+    }
+    .photo{
+        border: none;
+    }
+}
+
+@media screen and (max-width:950px) {
+    td {
+        font-size: 3px;
+    }
+    strong {
+        font-size: 5px;
+    }
+    table {
+        border-spacing: 1px;
+    }
+    .espace {
+        height: 5px;
+    }
+    @photo {
+        from {
+            transform: translateX(0px);
+        }
+        30% {
+            transform: translateX(50px);
+            border-radius: 0px 150px 150px 150px;
+        }
+        to {
+            background-color: #C4668E;
+            box-shadow: #C4668E 5px 6px 15px;
+            border-left: #C4668E solid 5px;
+        }
+    }
+    image {
+        margin-left: 10vw;
+        font-size: 11px;
+    }
+}
